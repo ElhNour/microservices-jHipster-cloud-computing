@@ -3,7 +3,7 @@
 ### 1.1.  Generate Gateway application and microservices applications
 ![gateway](./imgs/1.0.Gateway.png)
 ### 1.2.  Launch microservices, jHipster registry, and gateway
-![jHipster-registry](./imgs/1.1.jHipster-registry.png)
+![jHipster-registry](./imgs/1.1.Jhipster-registry.png)
 ![microservices](./imgs/1.3.Before-refactoring.png)
 ### 1.3.  Browse the application
 ![browsing](./imgs/1.4.After-refactoring.png)
