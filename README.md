@@ -15,3 +15,5 @@
 ![docker-compose](./imgs/1.4.4.Docker-compose-scale.png)
 ### 1.6.  Monitor microservices with Prometheus & Grafana
 ![grafana](./imgs/1.5.Grafana.png)
+
+## 2. Deploy in production the microservices on GCP with Kubernetes
