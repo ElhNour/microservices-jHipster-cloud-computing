@@ -1,4 +1,4 @@
-## Generating the microservices architecture
+## 1. Generating the microservices architecture
 ### 1.1.  Generate Gateway application and microservices applications
 ![gateway](./imgs/1.0.Gateway.png)
 ### 1.2.  Launch microservices, jHipster registry, and gateway
