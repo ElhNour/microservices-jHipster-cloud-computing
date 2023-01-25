@@ -1,5 +1,4 @@
-# microservices-jHipster
-## 1. Generate the microservices architecture
+## Generating the microservices architecture
 ### 1.1.  Generate Gateway application and microservices applications
 ![gateway](./imgs/1.0.Gateway.png)
 ### 1.2.  Launch microservices, jHipster registry, and gateway
@@ -15,5 +14,3 @@
 ![docker-compose](./imgs/1.4.4.Docker-compose-scale.png)
 ### 1.6.  Monitor microservices with Prometheus & Grafana
 ![grafana](./imgs/1.5.Grafana.png)
-
-## 2. Deploy in production the microservices on GCP with Kubernetes
