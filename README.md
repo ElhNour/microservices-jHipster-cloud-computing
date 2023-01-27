@@ -6,3 +6,6 @@ Deployment of Microservices with JHipster on GCP. Enabling scalability on GCP fo
 #### 4. [Monitor the application with the help of dashboards](monitoring.md)
 #### 5. [Demonstrate scalability by load injecting the application using Gatling](load-injection.md)
 
+### Thank you for this lab. We learned a lot!
+
+![credits](./imgs/credits.png)
