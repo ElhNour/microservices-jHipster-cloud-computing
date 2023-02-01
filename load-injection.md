@@ -6,3 +6,5 @@ As the figure below shows, the obtained results were as expected: as soon as the
 The link to the Gatling report can be found [here](index.html).
 
 ![gatling](./imgs/7.scalability.png)
+
+As stated in a previous section, as soon as the CPU utilization exceeds the 10% of the overall resources, the gateway is automatically replicated (max of replicas = 3). We can see that in the screenshot above.
