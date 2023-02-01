@@ -4,6 +4,8 @@ We first tried to use Promeheus and Grafana for monitoring but we faced a lot of
   - Service account couldn't list "probes" in API group: to fix that, we added the ClusterRole in Prometheurs-cr.yml.
   - File "/etc/prometheus/prometheus.env.yml" not found: we think that the jhipster-prometheus and jhipster-operator weren't running on the same pod, so jhipster-operator container was trying to access a volume that should be shared with jhipster-prometheus. We were able to log into Grafana using jhipster/jhipster for the authentication, but no data were shown on the dashboard, and this is due to the fact that Prometheus has never started.
 
+We spent a lot of time trying to solve this problem... but unfortunately we couldn't get it to work, especially since we had to leave some credits to be able to do the load injection with Gatling. 
+
 Therefore, we are showing in the two figures below some monitoring metrics provided by GCP monitoring API. The first one displays the CPU usage by different pods belonging to the "store" namespace.
 
 ![metrics-1](./imgs/6.metrics-cpu.png)
