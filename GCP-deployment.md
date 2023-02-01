@@ -8,6 +8,6 @@ Running the generated script "kubectl-apply.sh" with the -f option deploys the c
 
 ![kubectl-apply](./imgs/2.kubectl-apply.png)
 ## 2.3 Access the deployed app
-And here is how the deployed gateway looks like!
-
+And here is how the deployed gateway looks like! 
 ![gateway-public](./imgs/4.gateway-deployed.png)
+(This screenshot and that of the previous section were taken during two different executions, which explains the different PUBLIC IP adresses. )
